@@ -1,0 +1,173 @@
+h2.about-title,
+h2.title{
+	font-family: 'Georgia', sans-serif;
+	text-transform: uppercase;
+	padding-top: 17px;
+	background-color: #28235d;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 0px;
+	text-align: center;
+	min-height: 50px;
+}
+h2.about-title{
+	font-size: 25px;
+}
+.aboutus-content{
+	margin-top: 15px;
+	margin-bottom: 45px;
+}
+.aboutus-content-left{
+	padding-right: 45px;
+}
+.aboutus-content-right{
+	margin-left: -35px;
+}
+.aboutus-menu-left-nav {
+	background-color: #ececec;
+	padding-top: 10px;
+	margin-top: -10px;
+}
+
+
+h2.prod-title {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Helvetica';
+	font-weight: bold;
+	color: #28235d;
+	text-transform: uppercase;
+}
+
+h3.text {
+	font-family: 'Georgia';
+	font-size: 20px;
+	color: #fff;
+	padding-left: 15px;
+	padding-top: 17px;
+	font-weight: bold;
+}
+h5.text {
+	font-family: 'Georgia';
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+	padding-left: 16px;
+}
+h5.text a{
+	color: #fff;
+	text-decoration: none;
+}
+ul.aboutus-menu-sub,
+ul.aboutus-menu {
+	font-family: 'Georgia';
+	list-style-type: none;
+	margin-left: -24px;
+}
+ul.aboutus-menu > li{
+	display: block;
+	margin-left: -15px;
+	padding-left: 15px;
+}
+ul.aboutus-menu-sub li a,
+ul.aboutus-menu > li > a{
+	color: #28235d;
+}
+ul.aboutus-menu-sub li:hover,
+ul.aboutus-menu > li a:hover,
+ul.aboutus-menu > li:hover {
+	background-color: #b3b1b2;
+	text-decoration: none;	
+}
+ul.aboutus-menu > li.selected > a{
+	font-family: 'Georgia';
+	font-weight: bold;
+	background:none;
+}
+ul.aboutus-menu > li.selected:hover{
+	background:none;
+}
+ul.aboutus-menu-sub li{
+	margin-left: -30px;
+	padding-left: 25px;
+	display: block;
+}
+
+.about-last{
+	margin-top: 20px;
+}
+.about-des {
+	line-height: 20px;
+	font-weight: bold;
+}
+.about-des img.img-left{
+	padding-right: 10px;
+}
+.about-des img.img-right{
+	padding-left: 10px;
+}
+/*===========fix ie================*/
+.lt-ie9 .aboutus-content-right{
+	width: 760px;
+}
+.lt-ie8 .aboutus-content-left{
+	max-width: 190px;
+	float: left;
+}
+.lt-ie8 .aboutus-content-right{
+	max-width: 900px;
+	float: left;
+}
+.lt-ie8 .aboutus-content-left{
+	padding-right: 0px;
+	margin-right: 10px;
+}
+.lt-ie8 .aboutus-content-right{
+	margin-left: 0px;
+}
+.lt-ie8 .aboutus-menu-sub,
+.lt-ie8 .aboutus-menu {
+	margin-left: 10px;
+	padding-left: 5px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.aboutus-menu-left-nav {
+		margin-top: -10px;
+	}
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+}
+@media screen and ( max-width: 992px ) {
+	.cart-link {
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.aboutus-content-right {
+		width: 750px;
+	}
+}
+@media screen and (min-width: 768px) and ( max-width: 992px ) {
+	.aboutus-content-right {
+		width: 520px;
+	}
+}
+@media screen and ( max-width: 767px ) {
+	.aboutus-content-right{
+		margin-left: 0px;
+	}
+	.aboutus-content-left {
+		padding-right: 5px;
+	}
+}
+@media screen and ( max-width: 479px ) {
+	.about-des img.img-left{
+		padding-right: 0px;
+	}
+	.about-des img.img-right{
+		padding-left: 0px;
+	}
+}

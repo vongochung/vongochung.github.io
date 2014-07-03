@@ -1,0 +1,200 @@
+.login-content-left{
+	padding-left: 0px;
+	padding-right: 10px;
+	min-width: 230px;
+	color: #514e76;
+}
+.content-left-sidebar{
+	background-color: #ececec;
+	min-height: 400px;
+}
+.login-content-right {
+	padding-right: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.sidebar-content{
+	font-family: 'Georgia', sans-serif;
+	/*max-width: 220px;*/
+	padding-left: 10px;
+	padding-right: 10px;
+}
+h2.content-right-title,
+h2.sidebar-title{	
+	font-family: 'Georgia', sans-serif;
+	text-transform: uppercase;
+	background-color: #28235d;
+	padding: 15px 0px 15px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;	
+	margin-top: 0px;
+	text-align: center;
+}
+h2.content-right-title{
+	font-size: 25px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+.sidebar-des{
+	margin-bottom: 25px;
+	font-size: 13px;
+}
+.login-content-right form  .form-control,
+.sidebar-content form  .form-control{
+	border-radius: 0px;
+	height: 25px;
+	border: none;
+	margin-bottom: 10px;
+}
+.login-content-right form  .form-control{
+	background-color: #ececec;
+}
+.login-content-right form,
+.sidebar-content form label{
+	font-family: "Georgia", sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #514e76;
+}
+#btn-regist,
+#btn-login{
+	margin-top: 5px;
+	border-radius: 2px;
+	padding: 5px 10px 5px 10px;
+}
+#btn-regist{
+	margin-right: 5px;
+}
+#btn-regist,
+#btn-login:hover{
+	color: #fff;	
+}
+#btn-regist{
+	margin-top: 10px;
+}
+
+.content-right-des{
+	font-size: 14px;
+	font-weight: bold;
+}
+p.obligator{
+	margin-top: 25px;
+}
+.content-right-form,
+.content-right form .col-md-6,
+.content-right form .col-md-12{
+	padding-right: 0px;
+}
+.text-control{
+	position: relative;
+}
+.text-control span{
+	position: absolute;
+	right: 4px;
+	top: 5px;
+}
+/*====fix ie ========*/
+.lt-ie8 .content-left-sidebar{
+	padding-right: 0px;
+}
+.lt-ie8 .login-content-left{
+	max-width: 220px;
+}
+.lt-ie8 .login-content-left form input[type="text"]{
+	height: 20px;
+	width: 185px;
+}
+.lt-ie8 .login-content-right{
+	max-width: 750px;
+	margin-right: -20px;
+}
+.lt-ie8 .login-content-right .content-right-des{
+	max-width: 350px;
+}
+.lt-ie8 .login-content-right .content-right-form{
+	max-width: 400px;
+}
+.lt-ie8 .login-content-right .content-right-form .col-md-12{
+	max-width: 385px;
+}
+.lt-ie8 .login-content-right .content-right-form .col-md-6{
+	max-width: 190px;
+}
+.lt-ie8 .login-content-right .content-right-form input[type="text"]{
+	height: 20px;
+}
+.lt-ie8 .login-content-right .content-right-form .col-md-6 input[type="text"]{
+	max-width: 170px;
+	margin-left: 15px;
+}
+.lt-ie8 .login-content-right .content-right-form label{
+	margin-left: 15px;
+}
+.lt-ie8 .login-content-right .content-right-form .text-control span{
+	right: -12px;
+	top: 10px;
+}
+.lt-ie8 .login-content-right .content-right-form .col-md-12 .text-control span{
+	right: -17px;
+}
+.lt-ie8 .login-content-right .content-right-form .col-md-12 input[type="text"]{
+	max-width: 370px;
+	margin-left: 15px;
+}
+.lt-ie8 .login-content-right #btn-regist{
+	margin-right: -15px;
+}
+.lt-ie8 .login-content-right .content-right-title{
+	margin-right: -4px;
+}
+/* end fix ie */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+}
+@media screen and ( max-width: 992px ) {
+}
+@media screen and ( max-width: 700px ) and ( min-width: 200px ) {
+
+}
+@media screen and ( max-width: 440px ) and ( min-width: 200px ) {
+
+}
+
+@media screen and ( max-width: 550px ) and ( min-width: 441px ) {
+
+}
+@media screen and ( max-width: 700px ) and ( min-width: 551px ) {
+
+}
+@media screen and ( max-width: 901px ) and ( min-width: 701px ) {
+
+}
+
+
+@media screen and (max-width: 1205px) and (min-width: 1024px) {
+	
+}
+
+@media screen and ( max-width: 992px ) {
+
+}
+@media screen and ( max-width: 767px ) {
+	.login-content-left {
+	    margin-left: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.content-right-sidebar{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.login-content-right .row{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+@media screen and ( max-width: 479px ) {
+
+}

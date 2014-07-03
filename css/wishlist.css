@@ -1,0 +1,469 @@
+/*css wishlist*/
+.title_wish {
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	font-family: 'Droid Sans', 'sans-serif';
+}
+.title_wish h2 {
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: 'Georgia', sans-serif;
+	font-weight: bold;
+	color: #28235d;
+}
+.title_wish p {
+	text-align: right;
+	padding-top: 25px;
+}
+.title_wish span {
+	font-weight: bold;
+}
+.head_title_wish {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #fff;
+	background-color: #28235d;
+	height: 50px;
+}
+.table > thead > .head_title_wish > th {
+    vertical-align: middle;
+    margin-right: 20px;
+}
+tbody label {
+	font-family: 'Droid Sans', 'sans-serif';
+	font-size: 14px;
+	color: #000;
+	font-weight: normal;
+}
+.table > tbody > tr > td > button {
+    background-color: #b3b1b2;
+    font-family: 'Helvetica', sans-serif;
+    color: #fff;
+    width: 189px;
+    height: 25px;
+    border-radius: 2px;
+    box-shadow: none;
+    border: none;
+    filter: none;
+    text-transform: uppercase;
+}
+.table > tbody > tr > td > button:hover,
+.table > tbody > tr > td > button:visited {
+	background-color: #28235d;
+}
+.table > tbody > tr > td > .rensa_button {
+	width: 150px;
+	box-shadow: none;
+	margin-right: 5px;
+}
+.table > tbody > tr > td > .lagg_button,
+.table > tbody > tr > td > .deka_button {
+	height: 31px;
+	float: right;
+	font-size: 15px;
+}
+.table > tbody > tr > td > .uncheck_button {
+	width: 16px;
+	background: url(../images/unorder_wishlist.png) scroll no-repeat;
+	float: right;
+	margin-top: 2px;
+	margin-right: -7px;
+}
+.table > tbody > tr > td > .uncheck_button:hover,
+.table > tbody > tr > td > .uncheck_button:visited {
+	background-color: #fff;
+}
+.table > tbody > tr > td {
+	padding-left: 0;
+	padding-top: 15px;
+	font-family: 'Helvetica', sans-serif;
+}
+.table > thead > tr > th {
+	padding-left: 0;
+}
+.table > thead > tr > th:first-child {
+	width: 8.5%;
+}
+.produktnamn {
+	width: 54%;
+}
+.antal {
+	width: 16.5%;
+}
+.table > thead > tr > th:last-child {
+	width: 7%;
+}
+.name_product_wish {
+	font-family: 'Helvetica', sans-serif;
+	color: #000;
+	font-size: 16px;
+}
+.table > tbody > tr > td:last-child {
+	font-family: 'Droid Sans', 'sans-serif';
+	font-size: 14px;
+	color: #000;
+}
+.table > thead > tr > th {
+	border-bottom: none;
+}
+table.table td {
+    border-bottom: 1px solid black;
+}
+table.table tr.detail_order_list td {
+	border-bottom: none;
+	padding-right: 0;
+}
+table.table tr.detail_order_list img{
+	margin-left: 10px;
+	padding-bottom: 3px;
+}
+.table > tbody > tr > td:last-child > img {
+	padding-left: 4px;
+}
+.table > tbody > tr > td:first-child {
+	padding-top: 8px;
+	font-size: 13px;
+}
+.table > tbody > tr > .total_price {
+	text-align: right;
+	font-family: 'Droid Sans', 'sans-serif';
+	text-transform: uppercase;
+	padding-top: 5px;
+	padding-right: 0;
+}
+.total_price span {
+	font-weight: bold;
+}
+.table > tbody > tr > td > .lagg_button {
+	margin-left: 10px;
+	background-color: #28235d;
+}
+.arrow_up,
+.arrow_down {
+	box-shadow: none;
+	filter:none;
+	border: none;
+	border-radius: 0;
+	width: 15px;
+	height: 11px;
+	clear: both;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+}
+.arrow_down {
+	margin-top: 10px;
+}
+.arrow_up img {
+	margin-top: -12px;
+}
+.arrow_down img {
+	margin-top: -11px;
+}
+.form-control {
+	border-radius: 0;
+}
+#input_count_wish {
+	background-color: #ECECEC;
+    color: #000000;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    height: 21px;
+    text-align: left;
+    width: 39px;
+}
+.spinner {
+	width: 63px;
+	float: left;
+	position: relative;
+}
+/*fix responsive*/
+@media ( max-width: 479px  ) {
+	.table > tbody > tr > td:first-child {
+    	font-size: 10px;
+	}
+	.table > tbody > tr > td > .lagg_button,
+	.table > tbody > tr > td > .deka_button {
+		height: 28px;
+		font-size: 11px;
+	}
+	.table > tbody > tr > td > .rensa_button {
+		width: 130px;
+	}
+	.table > tbody > tr > td > button {
+		width: 140px;
+	}
+	.name_product_wish {
+    	font-size: 12px;
+	}
+	.head_title_wish {
+		font-size: 10px;
+	}
+	.produktnamn {
+    	width: 27%;
+	}
+	.table > tbody > tr > td:first-child img {
+    	height: 45px;
+    	padding-top: 0;
+    	width: 26px;
+	}
+	.table > tbody > tr > td:last-child {
+		font-size: 10px;
+		white-space: nowrap;
+	}
+	.table > thead > tr > th:first-child {
+    	width: 0.5%;
+	}
+	.name_product_wish {
+		font-size: 12px;
+		width: 30px;
+	}
+	.table > thead > tr > th:last-child {
+		width: 16%;
+	}
+	.table > tbody > tr.detail_order_list > td > button.lagg_button > img {
+		height: 10px;
+    	width: 8px;
+	}
+	.table > tbody > tr.detail_order_list > td > button.deka_button > img {
+		height: 10px;
+    	width: 8px;
+	}
+	.table > tbody > tr > td > .uncheck_button {
+		float: none;
+	}
+	.title_wish p {
+    	text-align: center;
+	}
+}
+@media ( max-width: 599px ) {
+	.produktnamn {
+	    width: 32%;
+	}
+	.table > thead > tr > th:last-child {
+    	width: 14%;
+	}
+	.antal {
+    	width: 19.5%;
+	}
+}
+@media ( min-width: 600px ) and ( max-width: 767px ) {
+	.table > thead > tr > th:last-child {
+	    width: 11%;
+	}
+	.produktnamn {
+	    width: 46%;
+	}
+}
+@media ( min-width: 768px ) and (  max-width: 991px ) {
+	.table > thead > tr > th:last-child {
+	    width: 9%;
+	}
+	.produktnamn {
+	    width: 52%;
+	}
+}
+/*fix ie 8*/
+.lt-ie9 .table .tabort {
+	text-align: center;
+	padding-left: 65px;
+}
+.lt-ie9 .table .td_tabort {
+	text-align: center;
+	padding-left: 75px;
+}
+/*fix ie 7*/
+.lt-ie8 .table .tabort {
+	text-align: center;
+	padding-left: 55px;
+}
+.lt-ie8 .table .td_tabort {
+	text-align: center;
+	padding-left: 55px;
+}
+.lt-ie8 .table > tbody > tr >td > .uncheck_button {
+	margin-top: -18px;
+}
+.lt-ie8 .title_wish .col-sm-4 {
+	float: left;
+	width: 313px
+}
+.lt-ie8 .title_wish .col-sm-4 p {
+	float: right;
+}
+.lt-ie8 .title_wish .col-sm-4 h2 {
+
+}
+.lt-ie8 #input_count_wish {
+	width: 10px;
+	float: left;
+	height: 7px;
+	display: inline-block;
+	margin-top: 1px;
+}
+.lt-ie8 .arrow_up {
+	float: left;
+	right: 10px;
+	top: 5px;
+}
+.lt-ie8 .arrow_down {
+	float: left;
+	right: 10px;
+	top: 4px;
+}
+.lt-ie8 .spinner {
+	width: 61px;
+	margin-top: 5px;
+}
+.lt-ie8 tbody label {
+	display: inline-block;
+	margin-top: 3px;
+}
+/***************CSS cart *****************/
+.produktpris {
+	text-transform: capitalize;
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+.totalt_price {
+	margin-bottom: 0px;
+}
+.table > tbody > tr > .rabbatkod button {
+	width: 82px;
+}
+.table > tbody > tr > .rabbatkod button > img {
+	margin-top: -3px;
+	padding-left: 6px;
+}
+.rabbatkod > .checkbox {
+	margin-top: 0;
+	margin-bottom: 4px; 
+}
+.rabbatkod > .checkbox > label {
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Droid Sans', 'sans-serif';
+	text-transform: capitalize;
+}
+.anvand_button input {
+	border: 2px solid #b3b1b2;
+	border: 2px solid #b3b1b2;
+	border-radius: 2px;
+	height: 26px;
+	margin-top: -2px;
+}
+.anvand_button button {
+	height: 27px;
+	width: 82px;
+	background-color: #b3b1b2;
+	border-radius: 2px;
+    box-shadow: none;
+    border: none;
+    filter: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+.anvand_button button:hover {
+	background-color: #28235d;
+}
+.table > tbody > tr > td.wrap_rensa_cart {
+	padding-top: 13px;
+}
+.table > tbody > tr > td > .slutfor_button {
+	height: 38px;
+	float: right;
+	font-size: 18px;
+	color: #fff;
+	background-color: #28235d;
+}
+.table {
+	margin-bottom: 0;
+}
+.method_payment_cart .checkbox {
+	padding-left: 0;
+}
+.visa_methods {
+	margin-right: 10px;
+}
+.visa_methods ,
+.post_methods {
+	position: relative;
+	display: block;
+}
+.visa_methods input,
+.post_methods input {
+	position: absolute;
+}
+.visa_methods input {
+	left: 56px;
+	top: 0;
+}
+.post_methods input {
+	left: 57px;
+	top: 0;
+}
+/*fix ie8 cart page*/
+.lt-ie9 .rabbatkod > .checkbox > label > input {
+	margin-top: 3px;
+}
+
+.lt-ie8 .rabbatkod > .checkbox > label > input {
+	margin-top: 0px;
+	margin-right: 2px;
+}
+.lt-ie8 .anvand_button input {
+	height: 21px;
+	margin-right: 5px;
+}
+.lt-ie8 #input_count_wish {
+	height: 7px;
+	margin-top: 2px;
+}
+.lt-ie8 .visa_methods input  {
+	left: 51px;
+}
+.lt-ie8 .post_methods input {
+	left: 53px;
+}
+/*fix responsive*/
+@media ( max-width: 479px  ) {
+	.table > tbody > tr > .rabbatkod button > img {
+		height: 8px;
+		width: 13px;
+	}
+	.anvand_button input {
+		width: 90px;
+		margin-bottom: 5px;
+	}
+	.table > tbody > tr > td > .slutfor_button {
+		font-size: 12px;
+	}
+	.table > tbody > tr > .rabbatkod button {
+    	width: 90px;
+	}
+	.table > tbody > tr > td > .rensa_button {
+		margin-bottom: 5px;
+	}
+	.produktpris {
+    	font-size: 11px;
+	}
+	.slutfor_button {
+		height: 25px;
+	}
+	.totalt {
+		width: 10%;
+	}
+}
+@media (min-width: 480px) and (max-width: 767px) {
+	.table > tbody > tr > td > .rensa_button {
+		margin-bottom: 5px;
+	}
+	.anvand_button input {
+		margin-bottom: 5px;
+	}
+}

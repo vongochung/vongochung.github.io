@@ -1,0 +1,219 @@
+.product-content{
+	margin-top: 10px;
+	margin-bottom: 40px;
+	font-size: 15px;
+}
+.product-content .breadcrumb>li+li:before{
+	content: "";
+}
+.product-content .breadcrumb span{
+	padding-left: 10px;
+}
+.breadcrumb-product {
+	padding: 0;
+	font-size: 9px;
+	background-color: #fff !important;
+	text-transform: uppercase!important;
+	margin-left: 2px;
+}
+.breadcrumb-product a{
+	color: #000;
+	text-decoration: underline;
+}
+.wrapper-content-product{
+	margin-top: -15px;
+	margin-left: -2px;
+}
+.social-product-list{
+	clear: both;
+	padding-top: 10px;
+	margin-left: 95px;
+}
+.social-product-list a{
+	margin-right: 2px;
+}
+.title-special{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.price-special-top{
+	font-family: 'Georgia',sans-serif;
+}
+.product-des{
+	margin-top: 40px;
+	font-size: 16px;
+	padding-left: 32px;
+    padding-right: 32px;
+}
+
+.product-color{
+	margin-top: 35px;
+	border-top: 4px solid #28235d;
+	border-bottom: 4px solid #28235d;
+	padding: 10px 0px 10px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+.btn-product-color .btn{
+	width: 23px;
+	height: 23px;
+}
+.btn-product-color .btn:hover{
+	border: 2px solid #b3b1b2;
+}
+.btn-color2{
+	background-color:  #881a61;
+}
+.btn-color3{
+	background-color:  #27336a;
+}
+.product-size{
+	border-bottom: 4px solid #28235d;
+	padding: 10px 0px 10px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+.product-size-list a{
+	display: inline-block;
+	padding: 5px 10px 5px 10px;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #b3b1b2;
+}
+.product-size-list a:hover,
+.product-size-list a.active{
+	background-color: #000;
+	color: #fff !important;
+	text-decoration: none;
+}
+.product-size-list a.special{
+	color: #000;
+}
+.attach{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.attach a{
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #000;
+}
+.button-show-all-instagram{
+	font-size: 18px;
+	width: 190px;
+	height: 40px;
+	font-weight: bold;
+	background-color: #28235d;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 1px;
+	color: #fff;
+	position: relative;
+	border-radius: 2px;
+}
+.button-show-all-instagram i{
+	position: absolute;
+	top: 9px;
+	font-size: 15px;
+	background: none;
+}
+.btn-wishlist{
+	background-color: #b3b1b2;
+	margin-right: 2px;
+}
+.button-show-all-instagram:hover{
+	background-color: #b3b1b2;
+}
+.wishlist-button{
+	margin-top: 15px;
+}
+
+.product-deliver-title{
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.product-deliver-title img{
+	margin-top: -4px;
+}
+.product-deliver-title span{
+	padding-top: 10px;
+	padding-left: 5px;
+	font-weight: bold;
+	color: #b8b6b7;
+}
+.product-deliver{
+	color: #b3b1b2;
+	margin-top: 15px;
+	border-top: 4px solid #dddddd;
+	border-bottom: 4px solid #dddddd;
+}
+
+.lt-ie8 .breadcrumb-product{
+	width: 300px;
+}
+.lt-ie8 .breadcrumb-product li{
+	display: inline-block;
+	max-width: 100px;
+	padding-right: 15px;
+	float: left;
+}
+.lt-ie8 .product-left-content{
+	width: 530px;
+}
+.lt-ie8 .product-right-content{
+	width: 390px;
+}
+.lt-ie8 .button-show-all-instagram{
+	width: 160px;
+	height: 30px;
+}
+.lt-ie8 .btn-wishlist{
+	margin-right: 14px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+}
+@media screen and ( min-width: 992px ) {
+}
+@media screen and ( max-width: 700px ) and ( min-width: 200px ) {
+
+}
+@media screen and ( max-width: 440px ) and ( min-width: 200px ) {
+
+}
+
+@media screen and ( max-width: 550px ) and ( min-width: 441px ) {
+
+}
+@media screen and ( max-width: 700px ) and ( min-width: 551px ) {
+
+}
+@media screen and ( max-width: 901px ) and ( min-width: 701px ) {
+
+}
+@media screen and (max-width: 1205px) and (min-width: 1024px) {
+	.button-show-all-instagram{
+		width: 188px;
+	}
+}
+@media screen and ( max-width: 992px ) {
+	.wishlist-button{
+		text-align: center;
+	}
+}
+@media screen and ( max-width: 767px ) {
+
+}
+@media screen and ( max-width: 479px ) {
+	.social-product-list{
+		margin-left: 0px;
+	}
+	.button-show-all-instagram{
+		width: 100%;
+		margin-top: 10px;
+	}
+}

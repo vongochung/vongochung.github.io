@@ -1,0 +1,148 @@
+/*css contact page*/
+.content {
+	margin-top: 0;
+	clear: both;
+}
+.headline_contact {
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #28235d;
+	font-weight: bold;
+	font-family: 'Georgia', sans-serif;
+	margin-top: 15px;
+}
+#googleMap {
+	height: 272px;
+	width: 100%;
+}
+.note_contact {
+	font-size: 11px;
+	font-family: 'Helvetica', sans-serif;
+	color: #28235d;
+}
+.infor_contact {
+	border-bottom: 2px solid #28235d;
+	padding-bottom: 21px;
+}
+.infor_contact a {
+	text-decoration: none;
+	color: #28235d;
+}
+.infor_contact h5 {
+	color: #28235d;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 22px;
+	margin-bottom: 3px;
+}
+.infor_contact p {
+	margin-bottom: 0;
+}
+.sveas {
+	margin-top: 20px;
+}
+.infor_contact .col-sm-4 {
+	padding-left: 45px;
+}
+.contact_formular .col-md-7 {
+	height: 229px;
+}
+.contact_formular img {
+	float: right;
+	margin-top: 62px;
+	border-left: 1px solid #ececec;
+}
+.contact_formular h3 {
+	font-size: 22px;
+	color: #28235d;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 6px;
+}
+.contact_formular .col-md-6 {
+	padding-left: 0;
+}
+.group-select {
+    position: relative;
+}
+.contact_formular .form-control {
+    background-color: #ECECEC;
+    border: medium none;
+    border-radius: 0;
+    font-size: 11px;
+    height: 20px;
+    margin-bottom: 6px;
+}
+.selectbox-profile {
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15px;
+}
+.selectbox-profile .btn {
+    background-position: -3px 9px;
+    border-radius: 0;
+    float: left;
+    height: 10px;
+    padding: 0;
+    width: 15px;
+}
+.dropup-profile {
+    background: url("../images/arrow_up.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.dropdown-profile {
+    background: url("../images/arrow_down.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.contact_formular label {
+	font-size: 11px;
+	font-family: 'Georgia', sans-serif;
+	text-transform: uppercase;
+	color: #28235d;
+	margin-bottom: 0;
+}
+.subject_form {
+	padding-left: 0;
+}
+.subject_form .form-control {
+	height: 100px;
+}
+.subject_form button {
+	float: right;
+	background-color: #28235d;
+	color: #fff;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	height: 23px;
+	text-align: center;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+.subject_form button:hover {
+	color: #fff;
+}
+.right_select {
+	padding-left: 10px;
+}
+.contact_select {
+	padding-right: 10px;
+}
+.form-control::-webkit-input-placeholder {
+   color: #28235d;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+   color: #28235d;
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+   color: #28235d;
+}
+
+.form-control:-ms-input-placeholder {
+   color: #28235d;
+}
